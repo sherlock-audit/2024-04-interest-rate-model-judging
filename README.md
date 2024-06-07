@@ -440,6 +440,10 @@ The protocol team fixed this issue in the following PRs/commits:
 https://github.com/exactly/protocol/pull/721
 
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-1: Bad debt isn't cleared when `earningsAccumulator` is lower than a fixed-pool bad debt 
 
 Source: https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/66 
@@ -1012,6 +1016,10 @@ Escalation status:
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/exactly/protocol/pull/726
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-4: DoS on liquidations when utilization rate is high 
 
@@ -1651,6 +1659,10 @@ The protocol team fixed this issue in the following PRs/commits:
 https://github.com/exactly/protocol/pull/722
 
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-6: borrow() maliciously let others to enter market 
 
 Source: https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/76 
@@ -1883,9 +1895,15 @@ Escalations have been resolved successfully!
 Escalation status:
 - [MehdiKarimi81](https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/76/#issuecomment-2118684913): rejected
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-7: Rewards can disappear when new rewards are distributed in the RewardsController. 
 
 Source: https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/95 
+
+The protocol has acknowledged this issue.
 
 ## Found by 
 0x73696d616f, Trumpero, ether\_sky
@@ -3440,6 +3458,10 @@ Escalations have been resolved successfully!
 Escalation status:
 - [0x73696d616f](https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/101/#issuecomment-2118808343): rejected
 
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-10: `TARGET_HEALTH` calculation does not consider the adjust factors of the picked seize and repay markets 
 
 Source: https://github.com/sherlock-audit/2024-04-interest-rate-model-judging/issues/117 
@@ -3692,6 +3714,16 @@ Note that `asset` is the immutable state variable of the `Market` in which the `
 @santichez The root cause of this issue is the same as the root cause of issue #70, which is that liquidations won't work when the market has high utilization. This issue describes a specific scenario that lies within that same root cause, and therefore it's grouped as a duplicate of #70. 
 
 Also, the escalation period is over. 
+
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/exactly/protocol/pull/723
+
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-12: When bad debts are cleared, there will be some untracked funds 
 
@@ -4022,6 +4054,10 @@ Or we need more sophisticated solution.
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/exactly/protocol/pull/724
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-13: Utilization rates are 0 when average assets are 0, which may be used to game maturity borrows / deposits / withdrawals 
 
@@ -4919,4 +4955,8 @@ The release rewards are `rewardData.releaseRate * (block.timestamp - rewardData.
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/exactly/protocol/pull/725
 
+
+**sherlock-admin2**
+
+The Lead Senior Watson signed off on the fix.
 
